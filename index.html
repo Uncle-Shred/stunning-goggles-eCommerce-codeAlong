@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>STARTER - Toybox Homepage</title>
 </head>
+
 <body>
-	<!-- skip link -->
+	<!-- Skip Link -->
 	<a href="#mainContent" class="skip-link">Skip to main content.</a>
 
-	<!-- Announcements bar -->
+	<!-- Announcements Bar -->
 	<div class="announcements">
 		<div class="wrapper">
-			<p>Complimentary shipping on orders over $50. Discount applied at checkout.</p>
+			<p>Complimentary shipping on orders over $50. Discount applied at checkout</p>
 		</div>
 	</div>
-	<!-- end of announcements -->
 
 	<!-- Navigation -->
 	<nav class="navBar">
 		<div class="wrapper">
-		 <!--slide out menu  -->
+			<!-- Slide Out Menu Button -->
 			<input type="checkbox" id="openSideMenu">
 			<label for="openSideMenu">
 				<img src="./assets/menu-button.svg" alt="Menu Button">
@@ -31,7 +32,7 @@
 			<div class="slideOutNav">
 				<button>x</button>
 
-				<!-- menu content -->
+				<!-- Menu Content -->
 				<nav>
 					<ul class="mainMenu">
 						<li>
@@ -47,79 +48,117 @@
 							<a href="">News</a>
 						</li>
 						<li>
-							<a href="">Content</a>
+							<a href="">Contact</a>
 						</li>
 					</ul>
 				</nav>
 			</div>
 
-			<!-- Navigation Bar -->
-				<!-- logo -->
+			<!-- NavBar -->
+			<!-- Logo -->
 			<a href="#home" class="logo">
 				<h1>Toybox</h1>
 			</a>
 
+			<!-- Search/Cart -->
 			<div class="searchCart">
-						<button class="menuIcon">
-							<img src="./assets/search.svg" alt="Search Icon">
-						</button>
-						
-						<a href="#" class="bag">
-							<img src="./assets/shop-bag.svg" alt="Shopping Bag">
-						</a>
-						
-						<div class="counter">
-							<p>0</p>
-						</div>
-					</div>		
+				<button class="menuIcon">
+					<img src="./assets/search.svg" alt="Search Icon">
+				</button>
+
+				<a href="#" class="bag">
+					<img src="./assets/shop-bag.svg" alt="">
+				</a>
+
+				<div class="counter">
+					<p>0</p>
 				</div>
-			</nav>
+			</div>
 
-			<!-- Header -->
+		</div>
+	</nav>
 
-		<header>
+
+	<!-- Header -->
+
+	<header>
+		<div class="wrapper">
+			<div class="headerImgContainer">
+				<img src="./assets/header-image.jpg" alt="A toddler playing with wooden blocks">
+			</div>
+			<div class="textContainer">
+				<h3>Handcrafted for kids</h3>
+				<h2>Go on, let them play with wooden blocks.</h2>
+				<p>Sed gravida eu ac aliquam pellentesque pharetra pharetra. Augue nam facilisis tristique turpis
+					iaculis pulvinar tellus.</p>
+				<a href="#shop" class="shopButton">Shop All</a>
+			</div>
+		</div>
+	</header>
+
+	<!-- Main Area -->
+	<main id="mainContent">
+		<!-- Categories Section -->
+		<section class="categories" id="categories">
 			<div class="wrapper">
-				<div class="headerImgContainer">
-					<img src="./assets/header-image.jpg" alt="Child playing with blocks">
-				</div>
-				<div class="textContainer">
-					<h3>handcrafted for kids</h3>
-					<h2>Go on, let them play with wooden blocks</h2>
-					<p>Sed gravida eu ac aliquam pellentesque pharetra pharetra. Augue nam facilisis tristique turpis iaculis pulvinar tellus.</p>
-					<a href="#shop" class="shopButton">Shop All</a>
+				<h2>Categories</h2>
+				<p>Explore our range of hand-made toys</p>
+
+				<!-- product gallery -->
+				<div class="categoryGallery">
+					<ul>
+						<li  class="items itemOne">
+							<a href="#">
+								<img src="./assets/safari-trio.jpg" alt="Three wooden toys in the safari">
+								<h4>Safari</h4>
+								<p>Land-dwelling African favourites</p>
+							</a>
+						</li>
+
+						<li class="items itemTwo">
+							<a href="#">
+								<img src="./assets/ocean-trio.jpg" alt="Three wooden toys under the sea">
+								<h4>Ocean</h4>
+								<p>Adorable aquatic creatures</p>
+							</a>
+						</li>
+
+						<li class="items itemThree">
+							<a href="#">
+								<img src="./assets/dino-trio.jpg" alt="Three wooden dinosaur toys for kids">
+								<h4>Dinos</h4>
+								<p>Meet these prehistoric pals</p>
+							</a>
+						</li>
+
+						<li class="items itemFour">
+							<a href="#">
+								<img src="./assets/sale.jpg" alt="Toddler playing with two wooden animals">
+								<h4>Sale</h4>
+								<p>Act quickly and grab these bargains</p>
+							</a>
+						</li>
+					</ul>
 				</div>
 			</div>
-		</header>
+		</section>
 
-		<!-- Main Area -->
-		<main id="mainContent">
-			<!-- Categories Section -->
-			<section class="categories" id="categories">
-				<div class="wrapper">
-					<h2>Categories</h2>
-					<p>Explore our range of hand-made toys.</p>
+		<!-- Let Them Play Section -->
+
+		<section class="play" id="play">
+			<div class="wrapper">
+				<div class="playContent">
+					<h3>Learning through doing</h3>
+					<h2>Let them play</h2>
+					<p>Bauris eget lacus, amet mollis felis, sed posuere odio. Justo purus orci ultricies et. Sit etiam porta sed tellus.
+					Cattis pellentesque felis tristique eget purus feugiat massa.</p>
+					<a href="#" class="aboutButton">Learn about us</a>
 				</div>
-			</section>
-
-
-			<!-- Let them play section -->
-			<div class="categoryGallery">
-				<ul>
-					<li>
-						<a href=""><img src="" alt=""></a>
-					</li>
-					<li>
-						<a href=""><img src="" alt=""></a>
-					</li>
-					<li>
-						<a href=""><img src="" alt=""></a>
-					</li>
-					<li>
-						<a href=""><img src="" alt=""></a>
-					</li>
-				</ul>
 			</div>
+		</section>
 
-		</main>
+	</main>
+
 </body>
+
 </html>
