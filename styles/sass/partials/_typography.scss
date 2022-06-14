@@ -13,12 +13,12 @@
      src: url('../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Bold.woff'),
           url(../fonts/PlusJakarta_Sans-2.5/webfonts/PlusJakartaSans-Bold.woff2),
           url(../fonts/PlusJakarta_Sans-2.5/static/PlusJakartaSans-Bold.ttf);
-     font-weight: bold;
+          font-weight: bold;
 }
 
 @font-face {
-     font-family: "Young Serig";
-     src: url('../../../fonts/youngserif/YoungSerif-Regular.otf')
+     font-family: "Young Serif";
+     src: url('../fonts/youngserif/YoungSerif-Regular.otf')
 
 }
 
@@ -88,4 +88,13 @@ a {
      text-decoration: none;
      color: inherit;
 }
+
+.smallCopy {
+     font-size: 0.6rem;
+     font-weight: bold;
+     margin: 0;
+     line-height: 1.2rem;
+}
+
+
 
