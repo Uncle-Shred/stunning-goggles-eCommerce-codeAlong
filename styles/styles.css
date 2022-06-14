@@ -301,6 +301,13 @@ a {
   line-height: 1.2rem;
 }
 
+button {
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -388,6 +395,13 @@ section {
   opacity: 0;
   position: absolute;
 }
+.navBar input[type=checkbox]:checked ~ .slideOutNav {
+  left: 0;
+}
+
+.menuButton {
+  cursor: pointer;
+}
 
 .searchCart {
   display: -webkit-box;
@@ -400,6 +414,7 @@ section {
 .searchCart .menuIcon {
   background-color: transparent;
   border: none;
+  padding: 0;
 }
 .searchCart .bag {
   display: -webkit-box;
@@ -425,4 +440,35 @@ section {
 
 .slideOutNav {
   background-color: #084b6d;
+  position: fixed;
+  top: 0;
+  left: -506px;
+  height: 100vh;
+  width: 100%;
+  max-width: 506px;
+  font-family: "Young Serif";
+  padding: 35px 50px;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+
+.mainMenu a {
+  font-family: "Young Serif";
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  color: white;
+  -webkit-transition: 0.75s;
+  transition: 0.75s;
+}
+.mainMenu a:hover, .mainMenu a:focus {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.menuClose {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.buttonContainer {
+  text-align: right;
 }
