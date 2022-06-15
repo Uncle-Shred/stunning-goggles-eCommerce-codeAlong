@@ -499,6 +499,29 @@ header .wrapper {
   width: 48%;
 }
 
+.contactHeader {
+  background: #fff5f5;
+  padding-top: 120px;
+}
+
+.contactHeader .wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+.contactHeader::after {
+  content: "";
+  width: 100%;
+  height: 150px;
+  display: block;
+  background-image: url(../assets/wave.svg);
+  background-size: 100% 150px;
+}
+
 .categories {
   margin: 20px;
 }
