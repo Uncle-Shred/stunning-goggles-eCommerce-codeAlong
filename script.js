@@ -1,10 +1,16 @@
 var slidingMenu = function () {
-    var menuToggle = document.querySelector('.mainMenu');
-    var body = document.body;
+    var menuToggle = document.querySelector('.menuButton');
+    var menu = document.querySelector('.slideOutNav');
+    var menuClose = document.querySelector('.menuClose');
 
     menuToggle.addEventListener('click', function (e) {
         e.preventDefault();
-        body.classList.toggle('slideOutNav');
+        menu.classList.toggle('navOpen');
+    });
+
+    menuClose.addEventListener('click', function (e) {
+        e.preventDefault();
+        menu.classList.toggle('navOpen');
     });
 }
 
